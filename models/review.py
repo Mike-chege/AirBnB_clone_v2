@@ -12,7 +12,7 @@ from sqlalchemy.orm import relationship
 
 class Review(BaseModel, Base):
     """
-    The Review Class
+    The Review Class.
     Defines the review for the MySQL database
     """
     __tablename__ = "reviews"
