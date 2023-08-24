@@ -29,7 +29,6 @@ quit - Exits the program (EOF will as well)
 
 ## :incoming_envelope: The Alternative Syntax
 Users can also issue a number of console commands using an alternative syntax:
-Usage: <class_name>.<command>([<id>[name_arg value_arg]|[kwargs]])
 The commands are:
 ```
 all - Shows all objects the program has access to, or all objects of a given class
