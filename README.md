@@ -1,6 +1,6 @@
 ## :file_folder: AirBnB_clone_version2 & The Console
 
-This repository/project contains the initial stage of building a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. The Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
+This repository/project contains the initial stage of building a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. The Console commands allow the user to `create`, `update`, and `destroy` objects, as well as managing the file storage systems. 
 
 ## :scroll: How to use (The Console):
 -  First clone this repository
