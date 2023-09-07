@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # This script sets up web servers for the deployment of web_static
 
+stored=/etc/nginx/sites-available/default
+
 apt-get -y update
 apt-get install -y nginx
 
@@ -33,6 +35,6 @@ printf %s "server {
       root /var/www/html;
       internal;
     }
-}" > /etc/nginx/sites-available/default
-
+}" > $stored
+# Restarting nginx after installation
 service nginx restart
