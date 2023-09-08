@@ -1,6 +1,6 @@
 ## :file_folder: AirBnB_clone_Version2 & The Console
 
-This project covers the second version of the AirBnB clone. This stage implemetns a backend interface, or the console, to manage program data. The Console commands allow the user to `create`, `update` , and `destroy` objects as well as manage file storage systems.
+This project covers the second version of the AirBnB clone. This stage implements a backend interface, or the console, to manage program data. The Console commands allow the user to `create`, `update` , and `destroy` objects as well as manage file storage systems.
 
 ## :open_file_folder: To run The Console use:
 ```
