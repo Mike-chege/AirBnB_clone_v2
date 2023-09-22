@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 @app.route("/", strict_slashes=False)
-def hbnb():
+def hello():
     """
     Prints "Hello HBNB!"
     """
@@ -16,4 +16,4 @@ def hbnb():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=5000)
