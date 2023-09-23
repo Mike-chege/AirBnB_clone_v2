@@ -11,6 +11,7 @@ from models.review import Review
 from models.state import State
 from models.user import User
 
+
 class FileStorage:
     """
     The FileStorage Class
@@ -78,6 +79,6 @@ class FileStorage:
     def close(self):
         """
         Method close
-        Calls the reload method
+        Calls the reload method.
         """
         self.reload()
